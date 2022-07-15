@@ -1,0 +1,133 @@
+.card {
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border: none;
+
+    .price {
+        color: grey;
+        font-size: 12px;
+        line-height: 1px;
+        text-align: left;
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    p.lurex {
+        font-size: 12px;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1px;
+    }
+
+    .sizes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sizes div strong {
+        text-decoration: underline;
+    }
+
+    .btn-grp {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .btn-grp .m-size button {
+        text-decoration: line-through;
+        border: 1px solid #E5E5E5;
+
+    }
+    .btn-grp  button {
+        border: 1px solid #E5E5E5;
+        padding: 0px;
+        color: #000;
+    }
+    .btn-grp button:last-child{
+        margin-top: 5px;
+    }
+
+    .add-to-bag {
+        text-align: center;
+        padding: 14px;
+    }
+
+    .add-to-bag button {
+        width: 100%;
+        border-radius: 10px;
+        background: black;
+        color: white;
+        padding: 5px;
+    }
+    .color-images{
+        display: flex;
+    }
+    .color-images img{
+        width: 30px;
+    }
+    .color-images img.dress{
+        border: 1px solid;
+    }
+    .interset p.text{
+    font-size: 12px;
+    }
+    .interset p.learn{
+        line-height: 1px;
+        font-size: 14px;
+    }
+    .interset p.chat{
+        font-size: 13px;
+    }
+    @media only screen and (max-width: 480px) {
+        .landing-screen-content{
+            display: block;
+        }
+        .card-content{
+            margin-top: 5px !important;
+        }
+        h1{
+            text-align: left;
+            font: Roboto;
+            font-weight: 400;
+            font-size: 25px;
+            margin-top: 10px;
+            // line-height:30.72px;
+        }
+        .sizes{
+            margin-top: 10px;
+        }
+        .bottom-a-tags{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4rem;
+        }
+        .bottom-a-tags div a{
+            color: #000;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+}

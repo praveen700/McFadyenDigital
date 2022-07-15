@@ -1,0 +1,41 @@
+.landing-container{
+    .landing-screen-content{
+        display: flex;
+    }
+    .landing-screen-content img{
+        width: 100%;
+    }
+    .landing-screen-content .dress-two, .dress-three img{
+        margin-top: 5px;
+    }
+   
+    .bottom-a-tags{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+    .bottom-a-tags div a{
+        color: #000;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .note{
+        margin-top: 30px;
+    }
+    .note .note-para p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .dress-two{
+        display: flex;
+    }
+
+    // mobile
+    @media only screen and (max-width: 480px) {
+        .landing-screen-content{
+            display: block;
+        }
+       
+    }
+}
